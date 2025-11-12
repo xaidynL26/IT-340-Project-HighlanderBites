@@ -6,6 +6,7 @@ import Checkout from "./pages/Checkout";
 import Orders from "./pages/Orders";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Landing from "./pages/Landing";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { CartProvider } from "./context/CartContext";
 import { AuthProvider } from "./context/AuthContext";
@@ -13,7 +14,7 @@ import "./index.css";
 
 const router = createBrowserRouter([
   { path: "/", element: <Shell />, children: [
-    { index: true, element: <Menu /> },
+    { index: true, element: <Landing /> },   // make landing the index
     { path: "menu", element: <Menu /> },
     { path: "cart", element: <Cart /> },
     { path: "checkout", element: <Checkout /> },
