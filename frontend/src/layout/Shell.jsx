@@ -19,6 +19,7 @@ export default function Shell(){
             <span>Highlander Bites</span>
           </Link>
           <nav className="nav">
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/menu">Menu</NavLink>
             <NavLink to="/cart">Cart</NavLink>
             <NavLink to="/checkout">Checkout</NavLink>
