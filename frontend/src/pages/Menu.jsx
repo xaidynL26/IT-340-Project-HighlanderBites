@@ -9,7 +9,7 @@ export default function Menu() {
         name: "Pork Sausage Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/bacon_egg_cheese.jpg"
+        image: "/menu/white.jpg"
 
       },
       {
@@ -17,70 +17,70 @@ export default function Menu() {
         name: "Beef Sausage Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.50,
-        image: "https://placehold.co/300x200?text=Sausage+Egg+%26+Cheese"
+        image: "/menu/white.jpg"
       },
       {
         id: 3,
         name: "Taylor Ham Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       },
 	{
         id: 4,
         name: "Bacon Egg and Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       },
 	{
         id: 5,
         name: "Turkey Bacon Egg and Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       }, 
 {
         id: 5,
         name: "Ham Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       },
 	{
         id: 6,
         name: "Turkey Club",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 8.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       }, 
 	{
         id: 7,
         name: "BTL",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 6.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       },
 	{
         id: 8,
         name: "Grilled Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 4.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       },
 	{
         id: 9,
         name: "Smoked turkey Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       }, 
 	{
         id: 10,
         name: "Bagel Cream Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 3.00,
-        image: "https://placehold.co/300x200?text=Pancakes"
+        image: "/menu/white.jpg"
       }
 	
     ],
@@ -90,73 +90,191 @@ export default function Menu() {
         name: "Western Omelette Platter",
         description: "Ham, green pepper & onions (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image:"/menu/chicken_rice.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 12,
         name: "Italian Cheese Omelette Platter",
         description: "Sausage, Mozzarella cheese, paper & onion (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/lamb_rice.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 13,
         name: "Bacon Cheese Omelette Platter",
         description: "(Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/steak_rice.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 14,
         name: "Veggie Patty Omelette Platter",
         description: "(Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/lamb_rice.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 15,
         name: "Greasy Sandwich",
         description: "Sausage, Bacon, & Taykor Ham (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/steak_rice.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 16,
         name: "Blood Clot Sandwich",
         description: "Taylor Ham, Bacon with Egg & Cheese (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/steak_rice.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 17,
         name: "Italian Sandwich",
         description: "Taylor Ham, Sausage with Egg Cheese (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/steak_rice.jpg"
+        image: "/menu/white.jpg"
       }
     ],
 
     lunch: [
       {
-        id: 4,
-        name: "Chicken Over Rice",
-        description: "Grilled chicken, yellow rice, lettuce, white & hot sauce",
-        price: 9.00,
-        image:"/menu/chicken_rice.jpg"
+        id: 18,
+        name: "Lamb over rice (Small)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
+        price: 7.00,
+        image: "/menu/white.jpg"
       },
+{
+        id: 19,
+        name: "Lamb over rice (Large)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
+        price: 9.00,
+        image: "/menu/white.jpg"
+      },
+
       {
-        id: 5,
-        name: "Lamb Over Rice",
-        description: "Seasoned lamb, yellow rice, lettuce, white & hot sauce",
-        price: 9.50,
-        image: "/menu/lamb_rice.jpg"
+        id: 20,
+        name: "Chicken Over Rice (Small)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
+        price: 7.00,
+        image: "/menu/white.jpg"
+      },
+{
+        id: 21,
+        name: "Chicken Over Rice (Large)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
+        price: 9.00,
+        image:"/menu/white.jpg"
+      },
+	{
+        id: 22,
+        name: "Chicken and Lamb Over Rice (Small)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
+        price: 9.00,
+        image:"/menu/white.jpg"
+      },{
+        id: 23,
+        name: "Chicken and Lamb Over Rice (Large)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 24,
+        name: "Chicken Shawarma Over Rice (Small)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
+        price: 9.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 25,
+        name: "Chicken Shawarma Over Rice (Large)",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 26,
+        name: "Lamb & Chicken Shawarma Over Rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 27,
+        name: "Chicken wings & French fries Platter",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 28,
+        name: "Buffalo Chicken Over Fries",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 29,
+        name: "Combo Platter",
+        description: "(Served with Lett/Tom/Onion & white sauce) (Chicken tenders, Mozzarella Sticks, and French Fries",
+        price:10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 30,
+        name: "Latino Platter",
+        description: "(Served with Lett/Tom/Onion & white sauce)(Baked Chicken, Moro Rice, and Sweet Platains",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 31,
+        name: "Lamb Guacamole over rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 32,
+        name: "Steak over rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 33,
+        name: "Lamb and Falafel over rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 34,
+        name: "Lamb and Steak over rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 35,
+        name: "Chicken and Falafel over Rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 36,
+        name: "Egg & Steak over Rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 37,
+        name: "Fish over Rice",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 38,
+        name: "Salchipapa",
+        description: "(Served with Lett/Tom/Onion & white sauce)",
+        price: 9.00,
+        image: "/menu/white.jpg"
       },
       {
         id: 6,
         name: "Steak Over Rice",
         description: "Juicy steak strips, yellow rice, lettuce, white & hot sauce",
         price: 10.00,
-        image: "/menu/steak_rice.jpg"
+        image: "/menu/white.jpg"
       }
     ],
     sandwiches: [
@@ -165,21 +283,21 @@ export default function Menu() {
         name: "Philly Cheesesteak",
         description: "Grilled steak, onions, peppers, melted cheese on hoagie roll",
         price: 9.00,
-        image: "/menu/philly_cheesesteak.jpg"
+        image: "/menu/white.jpg"
       },
       {
         id: 8,
         name: "Grilled Chicken Sandwich",
         description: "Tender chicken breast with lettuce, tomato & mayo",
         price: 8.00,
-        image: "https://placehold.co/300x200?text=Grilled+Chicken+Sandwich"
+        image: "/menu/white.jpg"
       },
       {
         id: 9,
         name: "Burger Deluxe",
         description: "Beef patty with cheese, lettuce, tomato & fries",
         price: 9.50,
-        image: "https://placehold.co/300x200?text=Burger+Deluxe"
+        image: "/menu/white.jpg"
       }
     ]
   };
