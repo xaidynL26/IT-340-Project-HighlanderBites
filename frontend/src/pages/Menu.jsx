@@ -1,3 +1,4 @@
+
 import "./Menu.css";
 
 export default function Menu() {
@@ -5,27 +6,136 @@ export default function Menu() {
     breakfast: [
       {
         id: 1,
-        name: "Bacon, Egg & Cheese",
-        description: "Served on your choice of bagel or roll",
-        price: 5.50,
+        name: "Pork Sausage Egg & Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.00,
         image: "/menu/bacon_egg_cheese.jpg"
 
       },
       {
         id: 2,
-        name: "Sausage, Egg & Cheese",
-        description: "Hearty breakfast classic with melted cheese",
-        price: 5.75,
+        name: "Beef Sausage Egg & Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.50,
         image: "https://placehold.co/300x200?text=Sausage+Egg+%26+Cheese"
       },
       {
         id: 3,
-        name: "Pancake Platter",
-        description: "Three fluffy pancakes served with syrup and butter",
+        name: "Taylor Ham Egg & Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      },
+	{
+        id: 4,
+        name: "Bacon Egg and Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      },
+	{
+        id: 5,
+        name: "Turkey Bacon Egg and Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      }, 
+{
+        id: 5,
+        name: "Ham Egg & Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      },
+	{
+        id: 6,
+        name: "Turkey Club",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 8.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      }, 
+	{
+        id: 7,
+        name: "BTL",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 6.00,
         image: "https://placehold.co/300x200?text=Pancakes"
+      },
+	{
+        id: 8,
+        name: "Grilled Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 4.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      },
+	{
+        id: 9,
+        name: "Smoked turkey Egg & Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 7.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      }, 
+	{
+        id: 10,
+        name: "Bagel Cream Cheese",
+        description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
+        price: 3.00,
+        image: "https://placehold.co/300x200?text=Pancakes"
+      }
+	
+    ],
+	Big_Breakfast: [
+      {
+        id: 11,
+        name: "Western Omelette Platter",
+        description: "Ham, green pepper & onions (Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image:"/menu/chicken_rice.jpg"
+      },
+      {
+        id: 12,
+        name: "Italian Cheese Omelette Platter",
+        description: "Sausage, Mozzarella cheese, paper & onion (Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image: "/menu/lamb_rice.jpg"
+      },
+      {
+        id: 13,
+        name: "Bacon Cheese Omelette Platter",
+        description: "(Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image: "/menu/steak_rice.jpg"
+      },
+      {
+        id: 14,
+        name: "Veggie Patty Omelette Platter",
+        description: "(Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image: "/menu/lamb_rice.jpg"
+      },
+      {
+        id: 15,
+        name: "Greasy Sandwich",
+        description: "Sausage, Bacon, & Taykor Ham (Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image: "/menu/steak_rice.jpg"
+      },
+      {
+        id: 16,
+        name: "Blood Clot Sandwich",
+        description: "Taylor Ham, Bacon with Egg & Cheese (Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image: "/menu/steak_rice.jpg"
+      },
+      {
+        id: 17,
+        name: "Italian Sandwich",
+        description: "Taylor Ham, Sausage with Egg Cheese (Served with Hashbrowns or French fried or Toast)",
+        price: 10.00,
+        image: "/menu/steak_rice.jpg"
       }
     ],
+
     lunch: [
       {
         id: 4,
