@@ -268,14 +268,131 @@ export default function Menu() {
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 9.00,
         image: "/menu/white.jpg"
+      }
+
+    ],
+    Gyros: [
+     {
+        id: 39,
+        name: "Lamb Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 6.00,
+        image: "/menu/white.jpg"
       },
+{
+        id: 40,
+        name: "Chicken Shawarma Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 7.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 41,
+        name: "Beef Steak Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 7.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 42,
+        name: "Greek Gyro",
+        description: "Served with lettuce & tomatoes (Tomatoes, Onions, and French Fries)",
+        price: 7.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 43,
+        name: "Chicken Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 6.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 44,
+        name: "NY style Chicken Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 7.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 45,
+        name: "Falafel Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 6.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 46,
+        name: "Fish Gyro",
+        description: "Served with lettuce & tomatoes",
+        price: 7.00,
+        image: "/menu/white.jpg"
+      },
+    ],
+    Fat_Sandwiches_Steaks: [
       {
-        id: 6,
-        name: "Steak Over Rice",
-        description: "Juicy steak strips, yellow rice, lettuce, white & hot sauce",
+        id: 47,
+        name: "Ivan",
+        description: "Steak & Fired Chicken & Mozzarella Sticks, & Chedder Cheese & French Fries with lettuce, tomatoes, & white and hot sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 48,
+        name: "Italian Philly Steak",
+        description: "Steak & cheese & French fries & fresh peppers & onions with Mayo and Ketchup",
         price: 10.00,
         image: "/menu/white.jpg"
-      }
+      },{
+        id: 49,
+        name: "Pizza Steak",
+        description: "Steak & Mozzerella Sticks & Mozzarella cheese & French fries with Marinara sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 50,
+        name: "R US",
+        description: "Steak & Bacon & Jack Cheese & French fries with Ketchup",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 51,
+        name: "Summer",
+        description: "Steak & chicken tenders & Chedder cheese & Mozzarella Sticks & French Fries with Mayo and Ketchup ",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 52,
+        name: "Greece",
+        description: "Sausage & Mozzarella cheese & French pepper &and onion with Lett/Tom & white sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 53,
+        name: "Hot",
+        description: "Hot Dogs & Chedder fries & Beef Chili with onions and Mayo & Ketchup",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 54,
+        name: "MOJO",
+        description: "Burger & cheese fries & Mozzarella sticks with BBQ sauce or Ketchup",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 55,
+        name: "Double",
+        description: "2 cheese burgers with lettuce, tomatoes & onions served with mayo and Ketchup",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 56,
+        name: "Mad Cow",
+        description: "Burger & Bacon & Jack cheese & french fries served with BBQ sauce or ranch",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 57,
+        name: "Italian Fish Sandwich",
+        description: "",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },
+
+
     ],
     sandwiches: [
       {
