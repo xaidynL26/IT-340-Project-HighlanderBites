@@ -521,6 +521,85 @@ export default function Menu() {
       },
 
   ],
+    Biryani_Menu: [
+      {
+        id: 77,
+        name: "Egg Biryani Platter",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 78,
+        name: "Falafel Biryani Platter",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 79,
+        name: "Veggie patty Biryani Platter",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 80,
+        name: "Chicken Biryani",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce (TIKKA or TANDOORI OR CURRY +$1",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 81,
+        name: "Veggie Biryani Platter",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 82,
+        name: "Samosas Biryani Platter",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce",
+        price: 9.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 83,
+        name: "Lamb Biryani Platter",
+        description: "Served with Lettuce, Tomatoes & Onion with white & Hot sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },
+  ],
+    Veggie_Menu: [
+       {
+        id: 84,
+        name: "Veggie Samosas",
+        description: "(Roll...$3 or Burger...$5 or Over Rice...$7)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 85,
+        name: "Egyptian Sandwich",
+        description: "Falafel, French Fries served with letteuce, tomatoes, onions & white sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 86,
+        name: "Indian Sandwich",
+        description: "Veggie burger, Onions, Peppers, Lettuce, Tomatoes with Mozz. Sticks & white sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 87,
+        name: "Samosa Tikka Sandwich ",
+        description: "",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 88,
+        name: "Veggie Falafel Sanwich",
+        description: "",
+        price: 9.00,
+        image: "/menu/white.jpg"
+      },      
+
+    ],
     sandwiches: [
       {
         id: 7,
