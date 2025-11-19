@@ -694,34 +694,95 @@ export default function Menu() {
         price: 11.00,
         image: "/menu/white.jpg"
       },
-
-
-
-
-
    ],
-    sandwiches: [
+    Salads: [
       {
-        id: 7,
-        name: "Philly Cheesesteak",
-        description: "Grilled steak, onions, peppers, melted cheese on hoagie roll",
-        price: 9.00,
+        id: 103,
+        name: "Chicken Caesar",
+        description: "",
+        price: 10.00,
         image: "/menu/white.jpg"
       },
       {
-        id: 8,
-        name: "Grilled Chicken Sandwich",
-        description: "Tender chicken breast with lettuce, tomato & mayo",
-        price: 8.00,
+        id: 104,
+        name: "Fish Salad",
+        description: "",
+        price: 10.00,
         image: "/menu/white.jpg"
       },
       {
-        id: 9,
-        name: "Burger Deluxe",
-        description: "Beef patty with cheese, lettuce, tomato & fries",
-        price: 9.50,
+        id: 105,
+        name: "Italian Salad",
+        description: "Grilled Chicken, crisp bread, fresh vegetables, Fata cheese, Olive oil & italian dressing",
+        price: 10.00,
         image: "/menu/white.jpg"
       }
+    ], 
+    Drinks: [
+	{
+        id: 106,
+        name: "Canned Soda",
+        description: "Coca Cola, Pepsi, Sprite, Sunkist, Canada Dry, Inca Kola, Pepsi Zero",
+        price: 1.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 107,
+        name: "Energy Drinks",
+        description: "Monster & Redbull",
+        price: 2.99,
+        image: "/menu/white.jpg"
+      },{
+        id: 108,
+        name: "Cranberry",
+        description: "Bottled",
+        price: 2.49,
+        image: "/menu/white.jpg"
+      },{
+        id: 109,
+        name: "Orange Juice",
+        description: "Bottled",
+        price: 1.49,
+        image: "/menu/white.jpg"
+      },{
+        id: 110,
+        name: "Apple Juice",
+        description: "Bottled",
+        price: 1.49,
+        image: "/menu/white.jpg"
+      },{
+        id: 111,
+        name: "Coffee",
+        description: "",
+        price: 1.49,
+        image: "/menu/white.jpg"
+      },{
+        id: 112,
+        name: "Water",
+        description: "Bottled",
+        price: 1.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 113,
+        name: "Snapple",
+        description: "Bottled",
+        price: 2.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 114,
+        name: "Gatorade",
+        description: "",
+        price: 2.00,
+        image: "/menu/white.jpg"
+      },
+
+
+
+
+
+
+
+
+
     ]
   };
 
