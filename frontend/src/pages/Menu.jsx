@@ -593,13 +593,113 @@ export default function Menu() {
         image: "/menu/white.jpg"
       },{
         id: 88,
-        name: "Veggie Falafel Sanwich",
+        name: "Veggie Falafel Sandwich",
         description: "",
         price: 9.00,
         image: "/menu/white.jpg"
       },      
 
     ],
+    Quesadillas: [
+    {
+        id: 89,
+        name: "Chicken",
+        description: "Served with lettuce, tomatoes & cheese",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 90,
+        name: "Steak",
+        description: "Served with lettuce, tomatoes, & cheese",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 91,
+        name: "Mix Cheese",
+        description: "Served with leetuce, tomatoes, & cheese",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },
+
+    ],
+    Sides: [
+       {
+        id: 92,
+        name: "Chesse Fries",
+        description: "",
+        price: 5.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 93,
+        name: "Chicken nuggets",
+        description: "",
+        price: 5.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 94,
+        name: "Cajun fries",
+        description: "",
+        price: 5.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 95,
+        name: "Chicken wings",
+        description: "",
+        price: 6.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 96,
+        name: "Mozzarella Sticks",
+        description: "",
+        price: 5.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 97,
+        name: "Sweet Plantains",
+        description: "",
+        price: 4.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 98,
+        name: "Empanadas",
+        description: "Cheese or chicken or Beef or Ham & Cheese",
+        price: 2.50,
+        image: "/menu/white.jpg"
+      },
+
+    ],
+    Burritos: [
+     {
+        id: 99,
+        name: "Grill Chicken",
+        description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 100,
+        name: "Beef Steak",
+        description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 101,
+        name: "Lamb",
+        description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 102,
+        name: "Max",
+        description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce) (Two type of meat)",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },
+
+
+
+
+
+   ],
     sandwiches: [
       {
         id: 7,
