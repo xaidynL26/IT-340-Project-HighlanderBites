@@ -394,6 +394,133 @@ export default function Menu() {
 
 
     ],
+    Fat_Sandwiches_Chicken: [
+     {
+        id: 58,
+        name: "A LA Carte",
+        description: "Chicken & Lam served with Lettuce, Tomatoes & white sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 59,
+        name: "Chick",
+        description: "Chicken Tender & Bacon & Jack cheese with French fries & Ranch sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 60,
+        name: "Fried",
+        description: "Chicken Tender & Mozzarella Sticks & French Fries & Chedder cheese with Honey Mustard",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 61,
+        name: "French",
+        description: "Grilled Chicken & chicken tender & Mozzarella Sticks with White Sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 62,
+        name: "King",
+        description: "Grilled Chicken & Beef Steak ^ Mozzarella cheese & french fries serves with Mayo & Ketchup",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 63,
+        name: "Meats",
+        description: "Chicken Tender & Lamb with Lett/Tom & white & Hot sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 64,
+        name: "Cordon Bleu",
+        description: "Chicken Tender & Ham & Swiss Cheese with Lett/Tom and Mayo Sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 65,
+        name: "Parmesan",
+        description: "Chicken Tender & Mozzarella Sticks & Mozzarella cheese with Marinara Sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 66,
+        name: "Tunes",
+        description: "Chicken Tender & Potato Egg & Bacon with Lett/Tom & Mayo and Ketchup",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },
+
+    ],
+    Burgers: [
+    {
+        id: 67,
+        name: "Delux Burger",
+        description: "Lettuce, Tomatoes & Onions with French Fries; Cheese (Chesseburger or Veggie Burger or Falafel Burger or Chicken Burger)",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },
+  {
+        id: 68,
+        name: "New England",
+        description: "Cheeseburger, Bacon & Egg",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 69,
+        name: "Green Gang",
+        description: "Burger, Taylor Ham, Jack cheese& Guacamole Sauce",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 70,
+        name: "San Fran",
+        description: "Burger, Bacon, Egg & Swiss Cheese",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 71,
+        name: "Tunes",
+        description: "Burger, Steask, Egg & Yellow American cheese",
+        price: 11.00,
+        image: "/menu/white.jpg"
+      },
+
+   ],
+   Wraps: [
+{
+        id: 72,
+        name: "Chicken Caesar",
+        description: "Served with Lett & Tom",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 73,
+        name: "Buffalo Chicken",
+        description: "With Ranch or Blue Cheese Sauce",
+        price: 9.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 74,
+        name: "Chicken Honey Wrap",
+        description: "Served with Lett/Tom",
+        price: 9.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 75,
+        name: "Grilled Chicken Wrap",
+        description: "Served with Lett/Tom with Mayo Sauce",
+        price: 10.00,
+        image: "/menu/white.jpg"
+      },{
+        id: 76,
+        name: "Chicken Parmesan",
+        description: "Served with Lett/Tom",
+        price: 12.00,
+        image: "/menu/white.jpg"
+      },
+
+  ],
     sandwiches: [
       {
         id: 7,
