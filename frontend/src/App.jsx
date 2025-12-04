@@ -13,22 +13,51 @@ import { AuthProvider } from "./context/AuthContext";
 import "./index.css";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Shell />, children: [
-    { index: true, element: <Landing /> },   // make landing the index
-    { path: "menu", element: <Menu /> },
-    { path: "cart", element: <Cart /> },
-    { path: "checkout", element: <Checkout /> },
-    { path: "orders", element: (
-        <ProtectedRoute>
-          <Orders />
-        </ProtectedRoute>
-      ) },
-  ]},
+  {
+    path: "/",
+    element: <Shell />,
+    children: [
+      { index: true, element: <Landing /> },
+      { path: "menu", element: <Menu /> },
+
+      
+      {
+        path: "cart",
+        element: (
+          <ProtectedRoute>
+            <Cart />
+          </ProtectedRoute>
+        ),
+      },
+
+      
+      {
+        path: "checkout",
+        element: (
+          <ProtectedRoute>
+            <Checkout />
+          </ProtectedRoute>
+        ),
+      },
+
+   
+      {
+        path: "orders",
+        element: (
+          <ProtectedRoute>
+            <Orders />
+          </ProtectedRoute>
+        ),
+      },
+    ],
+  },
+
+  // Public pages
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
 ]);
 
-export default function App(){
+export default function App() {
   return (
     <AuthProvider>
       <CartProvider>
@@ -37,3 +66,4 @@ export default function App(){
     </AuthProvider>
   );
 }
+

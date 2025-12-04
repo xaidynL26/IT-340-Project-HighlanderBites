@@ -4,7 +4,7 @@ export async function apiLogin({ email, password }) {
   const r = await fetch(`${BASE}/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type':'application/json' },
-    credentials: 'include', // if your backend sets HttpOnly cookie
+   // credentials: 'include', // if your backend sets HttpOnly cookie
     body: JSON.stringify({ email, password })
   });
   if (!r.ok) throw new Error((await r.json().catch(()=>({message:'Login failed'}))).message || 'Login failed');
