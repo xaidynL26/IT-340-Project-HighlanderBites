@@ -9,7 +9,7 @@ export default function Menu() {
         name: "Pork Sausage Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6InVzZXItcDkxNDRuVlkybFd3QVVuYlcyWE9xeWN1OmZpbGVfMDAwMDAwMDAwMGEwNzFmNWE1ZTVlZTY0ZjdiNDU0ODIiLCJ0cyI6IjIwNDM0IiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiIzMmNkMTQ4M2ZjMDg3ZjEwYmFhNzlkMmZjMzEyNDIyNDJhMzlkNjJkMzVmMGE5N2Q4ZDRkZjI1ZmVhODY2OWNlIiwidiI6IjAiLCJnaXptb19pZCI6bnVsbCwiY3AiOm51bGwsIm1hIjpudWxsfQ=="
 
       },
       {
