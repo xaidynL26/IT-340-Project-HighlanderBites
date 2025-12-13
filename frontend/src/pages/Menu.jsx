@@ -628,43 +628,43 @@ export default function Menu() {
         name: "Chesse Fries",
         description: "",
         price: 5.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95PlvlAM-G-CgXSkSNvdhV1q4I0VHHBD7lA&s"
       },{
         id: 93,
         name: "Chicken nuggets",
         description: "",
         price: 5.00,
-        image: "/menu/white.jpg"
+        image: "https://www.momontimeout.com/wp-content/uploads/2021/02/chicken-nuggets-square.jpg"
       },{
         id: 94,
         name: "Cajun fries",
         description: "",
         price: 5.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpI1iNRsippreOw-dRWYV08_t5cIKe305yBA&s"
       },{
         id: 95,
         name: "Chicken wings",
         description: "",
         price: 6.00,
-        image: "/menu/white.jpg"
+        image: "https://www.sixsistersstuff.com/wp-content/uploads/2025/01/Crispy-Baked-Chicken-Wings.jpg"
       },{
         id: 96,
         name: "Mozzarella Sticks",
         description: "",
         price: 5.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ohj7kpLNWkVhKNgu5fV50VclmEp7TtNVjQ&s"
       },{
         id: 97,
         name: "Sweet Plantains",
         description: "",
         price: 4.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadM8CPRJZx589nXOtHDdSiJHcQV24UPj-YQ&s"
       },{
         id: 98,
         name: "Empanadas",
         description: "Cheese or chicken or Beef or Ham & Cheese",
         price: 2.50,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-qqy8SJ5QtuSDhPR3SiV-zR0A8iVSgIMy3g&s"
       },
 
     ],
