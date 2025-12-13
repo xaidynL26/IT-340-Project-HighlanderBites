@@ -142,14 +142,14 @@ export default function Menu() {
         name: "Lamb over rice (Small)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSm0cVV9reUh9mYFbBO3mvcwTwIN0hx978_2eqnXI1-n76CEEhxVDAYfXyFkWQet9MxBoCqYOib2Xjqff7NJPoJdiAQkQjLoEtNECVGmR4XJndyAI9TYF2fbUj_r_opiecn43o7RepFeALvb8jDz4JHf8NTIImPdlfh-cTt-ud63B_uNoQ=s1024-rj"
       },
 {
         id: 19,
         name: "Lamb over rice (Large)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
         price: 9.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSm0cVV9reUh9mYFbBO3mvcwTwIN0hx978_2eqnXI1-n76CEEhxVDAYfXyFkWQet9MxBoCqYOib2Xjqff7NJPoJdiAQkQjLoEtNECVGmR4XJndyAI9TYF2fbUj_r_opiecn43o7RepFeALvb8jDz4JHf8NTIImPdlfh-cTt-ud63B_uNoQ=s1024-rj"
       },
 
       {
@@ -157,117 +157,117 @@ export default function Menu() {
         name: "Chicken Over Rice (Small)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlkNGLZUR1ZoGagV0jU2JWRiC_BDlVLBQ14Ye0EShpQmRJ5kmL63eiwlTfbWa1rTKWJ88F-x5xfO31l3Rq0eJXxut2FROwnGWT97mZ4c0wvJ9oMt_f_LlFz6Yl37sOtl2FG5QJjCVysxOhO4rTmENkZFNnjN9Zx8eeFvei7EovB0mSwhg=s1024-rj"
       },
 {
         id: 21,
         name: "Chicken Over Rice (Large)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
         price: 9.00,
-        image:"/menu/white.jpg"
+        image:"https://lh3.googleusercontent.com/gg-dl/ABS2GSlkNGLZUR1ZoGagV0jU2JWRiC_BDlVLBQ14Ye0EShpQmRJ5kmL63eiwlTfbWa1rTKWJ88F-x5xfO31l3Rq0eJXxut2FROwnGWT97mZ4c0wvJ9oMt_f_LlFz6Yl37sOtl2FG5QJjCVysxOhO4rTmENkZFNnjN9Zx8eeFvei7EovB0mSwhg=s1024-rj"
       },
 	{
         id: 22,
         name: "Chicken and Lamb Over Rice (Small)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
         price: 9.00,
-        image:"/menu/white.jpg"
+        image:"https://lh3.googleusercontent.com/gg-dl/ABS2GSmFjavj2AZoa8MLzztcOUFydjplbnP27x9rr8XuJviI7JeULA3OXYbDPQetggOiWYsJDAyo-S_gBVibrCEdUISn9rsQ683UDmAw1OImbtqWLGM5vapiCgrYdKrGDTGnTitkvGxW70GybCAY9TK9z6mdh3fZwRhEKLCokk5q0BaYNFmJaw=s1024-rj"
       },{
         id: 23,
         name: "Chicken and Lamb Over Rice (Large)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSmFjavj2AZoa8MLzztcOUFydjplbnP27x9rr8XuJviI7JeULA3OXYbDPQetggOiWYsJDAyo-S_gBVibrCEdUISn9rsQ683UDmAw1OImbtqWLGM5vapiCgrYdKrGDTGnTitkvGxW70GybCAY9TK9z6mdh3fZwRhEKLCokk5q0BaYNFmJaw=s1024-rj"
       },{
         id: 24,
         name: "Chicken Shawarma Over Rice (Small)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Small)",
         price: 9.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbTSpZhFajYZ5qNlELUALPKbm5MZocUpGvw&s"
       },{
         id: 25,
         name: "Chicken Shawarma Over Rice (Large)",
         description: "(Served with Lett/Tom/Onion & white sauce) (Large)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbTSpZhFajYZ5qNlELUALPKbm5MZocUpGvw&s"
       },{
         id: 26,
         name: "Lamb & Chicken Shawarma Over Rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbTSpZhFajYZ5qNlELUALPKbm5MZocUpGvw&s"
       },{
         id: 27,
         name: "Chicken wings & French fries Platter",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5AaGQitXXp3ISk-p4XXzszeFKAZ-uxpP6lg&s"
       },{
         id: 28,
         name: "Buffalo Chicken Over Fries",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZ6SOFtYF3a1Qa5WRugzyr4xDqg7FE-PezQ&s"
       },{
         id: 29,
         name: "Combo Platter",
         description: "(Served with Lett/Tom/Onion & white sauce) (Chicken tenders, Mozzarella Sticks, and French Fries",
         price:10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSnsBZs0y1RfsqrU8eGeDT5cJRdiToqHeHgF92NUEXhSiSyYDml4Y-a83wX2h4Itk7rZJvMtvPfbzb8yek0uUn1muEBspzJCNRAyM8GI-A8S_3ADHFlSTE1yW3LjpQ9tMLhev5FMp6lziK6dP6sbGNfvMAbv4CkCdsoj0u8S0eih1Ww=s1024-rj"
       },{
         id: 30,
         name: "Latino Platter",
         description: "(Served with Lett/Tom/Onion & white sauce)(Baked Chicken, Moro Rice, and Sweet Platains",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlSP0fi_zFdW7E47bHkZ86_UyqvI8azahrSyczYDVxDD8yIovQdho9aaTBGlZxp0WartsmyKxbhlxhLFj-22sQr3Ihc1P8NlN7Np2CxIldYkE0Gsdtr7P6xr5TV-xZd-mnrL_yKjAjkaNOKXkqAW_RpEL9EzbS7DUqUytPrtQyMNNy8bA=s1024-rj"
       },{
         id: 31,
         name: "Lamb Guacamole over rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSnN_9_uSCWdUmVzAqNNOg8CQZ4y_hZOzjnvsl2n2bU7I4zdfvfZn60_Yajbf4SMrDoDXu0C4Np3zkTolQtK4CBAETjAMsXVN0AxV7Sx7XfyTDfeaTFCvVlkk1Q4nYItUYYKq42ZndEFJksI_yBrsiBa8lPYtaatctU23P4gz4se8BkZBQ=s1024-rj"
       },{
         id: 32,
         name: "Steak over rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSnRGwsx_cH__vLkC2tsGCF0NDxDKkw7NXyrW-9KMPAwa5oDQEMR_7lanjmVj1yo83LSJnSqsdoDuZEtgVDb5Dr9G2y0KLQKi3lZ11CP1dtAzv7p00Sj1phwyHq3CtCAT1lihs-kgjgCuOyPNO-so4Py6pdjhJgyOnZHUvoE9eQDMPP32w=s1024-rj"
       },{
         id: 33,
         name: "Lamb and Falafel over rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSl_eSdoGJ98b0UanQw-8maRvFYkpF0KXBHSiT8AKOenTwU4A6JKUGeeIxf9z1amIqJRO__dOeRS4tzZ3AZf7u_Elb-WjB9Se_ZMvXQ5Qpc5Zx61Q1YhuVgIKL6HDM_OvG6hAENYvhYyx0DNJcFTYkuEOea0oM4pdyaSWbL7f_hCn_s=s1024-rj"
       },{
         id: 34,
         name: "Lamb and Steak over rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSm5JL6-z39lj_WcOiiPl2-A4bEIFOOmmKhmMbbeLFGINdC_ncL06sv2kBqAguk83TAJtH2I6xfM-Yov3m5AalLz-satwFkK4_TS6U6nIAsc7LluuP9qVl8XM06xaoShguJQH8r3ImLGdfsoLvAcTT1hV9fgs9hbPhJG38qXJtQasvg9tA=s1024-rj"
       },{
         id: 35,
         name: "Chicken and Falafel over Rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlUKzkQNautug4FoecZw51zT8LngtjrCIPzl6kLyZNjueEmVbHKFAzSfJQIgX42DSJsy71BEeV3jOk1VLJWX0kcmWodpSYcEZOo4yiTr48OXltY6O85ivYqEPIB6oOgy_Ju1O_u3HRFfZS2teBN9be_zb8yE0usx661leoY5nYfj-pF9Q=s1024-rj"
       },{
         id: 36,
         name: "Egg & Steak over Rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSmtPz5qLFUTQDdBHLKNC5ji3ycasSys2nDWr5rjUKHA4LHzb1tXf07j86DdooU177AO2yJsrO5x6pT62x6Me8pbgAgsJjwgsbO7vEg1cs3DMFEQ0fWkAtMO6qjtIkh9rKBpNjz5fMoY6kQ0GRbJ8L_8Qqc1O6wWpe6i9k9dYgT_Nn68=s1024-rj"
       },{
         id: 37,
         name: "Fish over Rice",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlE9h8LrZG6EiGHf-F3_pUDWaDAZ6TkjDMdSVnE5X-TRMRMviGCRsH79A_an9iWNj4f3cl9YJfe69lgS66l2bihdl32QM3CRY1dV-cF5L-xXkvpRK1d5UrwMFNt4OnWH0qutzsyc1PuIKDaoN4_5VuCCKUJc0d4CtLDBDpMITlKiS3c_g=s1024-rj"
       },{
         id: 38,
         name: "Salchipapa",
         description: "(Served with Lett/Tom/Onion & white sauce)",
         price: 9.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlTf-kTsxdpTx8hxdkcKJheDFRAUNtIFq4U4a0OQn1t14sMa6KK3NdVRAYEsg6sAKeX8ezPl7jpiqiEMQEgCm_EK0ELJvoECTEoLOFUClJNmsTINrJO5UbkJPDi5A8FN59LTFAyTWOnBiznAq6iqXS9Mum7hCcT-xud_sddBN9PJ7C2QQ=s1024-rj"
       }
 
     ],
