@@ -17,70 +17,70 @@ export default function Menu() {
         name: "Beef Sausage Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.50,
-        image: "/menu/white.jpg"
+        image: "https://chatgpt.com/backend-api/estuary/content?id=file_00000000f58c71fdab06c2fa1221ce46&ts=490439&p=fs&cid=1&sig=21d8cf34c26ffd9a47bd8adb9bdd7dfb4fd52f3882a3b1f7248d25c5ee5e65ed&v=0"
       },
       {
         id: 3,
         name: "Taylor Ham Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://chatgpt.com/backend-api/estuary/content?id=file_00000000cf4471fd9b37cb9002f8b8b0&ts=490440&p=fs&cid=1&sig=350afbd7023d7f740727ad430a74ee4b1b24c292b6380ce38ed878d0972b14ff&v=0"
       },
 	{
         id: 4,
         name: "Bacon Egg and Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://static01.nyt.com/images/2022/08/24/dining/as-bacon-egg-and-cheese-1/as-bacon-egg-and-cheese-1-mediumSquareAt3X-v3.jpg"
       },
 	{
         id: 5,
         name: "Turkey Bacon Egg and Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://130248881.cdn6.editmysite.com/uploads/1/3/0/2/130248881/4YN4RUEDY53KOJLS3LVJXN7C.jpeg"
       }, 
 {
         id: 5,
         name: "Ham Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://oakmontbakery.com/wp-content/uploads/2020/06/Ham-Egg-Cheese.jpg"
       },
 	{
         id: 6,
         name: "Turkey Club",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 8.00,
-        image: "/menu/white.jpg"
+        image: "https://img.taste.com.au/V9EjRwP2/w1200-h1200-cfill-q80/taste/2016/11/classic-turkey-club-sandwich-24417-1.jpeg"
       }, 
 	{
         id: 7,
-        name: "BTL",
+        name: "BLT",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 6.00,
-        image: "/menu/white.jpg"
+        image: "https://dyvn6jpt1f0d3.cloudfront.net/wp-content/uploads/2023/10/14154227/BLT-for-recipe-1-6-1200x675.jpeg"
       },
 	{
         id: 8,
         name: "Grilled Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 4.00,
-        image: "/menu/white.jpg"
+        image: "https://www.allrecipes.com/thmb/pnEUcAXDg5GUJ77fUDzZp41NWkE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-238891-Grilled-Cheese-Sandwich-beauty-4x3-362f705972e64a948b7ec547f7b2a831.jpg"
       },
 	{
         id: 9,
         name: "Smoked turkey Egg & Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 7.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZ1oNGzjZW8D7PRISsVsYkuXK6tAgmrbwVw&s"
       }, 
 	{
         id: 10,
         name: "Bagel Cream Cheese",
         description: "(Add Hashbrown +$1) (Substitute Roll For A Bagel +$1)",
         price: 3.00,
-        image: "/menu/white.jpg"
+        image: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2F2022-11-how-to-make-cream-cheese%2FHOW-TO-MAKE-CREAM-CHEESE_083"
       }
 	
     ],
@@ -90,49 +90,49 @@ export default function Menu() {
         name: "Western Omelette Platter",
         description: "Ham, green pepper & onions (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyUrLMRq27gr1zey754_rvuLrNiFxpEEaR6A&s"
       },
       {
         id: 12,
         name: "Italian Cheese Omelette Platter",
         description: "Sausage, Mozzarella cheese, paper & onion (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2_A-WpuixX2NjzGAg7tNtFmgma5zslVCNQ&s"
       },
       {
         id: 13,
         name: "Bacon Cheese Omelette Platter",
         description: "(Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/10/25/68/picAmS8qc.jpg"
       },
       {
         id: 14,
         name: "Veggie Patty Omelette Platter",
         description: "(Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://www.thecandidcooks.com/wp-content/uploads/2023/01/veggie-omelette-feature.jpg"
       },
       {
         id: 15,
         name: "Greasy Sandwich",
         description: "Sausage, Bacon, & Taykor Ham (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8uC3a6u6-jpSOsWAgyaicSQ3DtXZl2Qrng&s"
       },
       {
         id: 16,
         name: "Blood Clot Sandwich",
         description: "Taylor Ham, Bacon with Egg & Cheese (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSl1YuIl_r-en4qw2IRTIUVyFMDY8IOOP6R-dkX_aEJeCMfXAG1bDpqJxN8EcD5RfeKKqMRymeSPC_EPAK9cqCDiTSfdyKcqsaNztm6Gn-QiPXKBfVgHg66E_mWtRRXNjFV-KkpZamBryV4SgHOeqG2WixfFtWQkdN9-a7JTmFf0EnXBUQ=s1024-rj"
       },
       {
         id: 17,
         name: "Italian Sandwich",
         description: "Taylor Ham, Sausage with Egg Cheese (Served with Hashbrowns or French fried or Toast)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSm5xexce8ZCtqn_h04YZV_Lvn18vWPMxVgtEC8PPZUcMEnlbCQIshBij07dXfjhoFEFdfW0IlsYjD83JFKTHRVeVCGBV59O8_ir9llp_PoJwP9D6zz4nTlgzg_TLJ8FuK5iurM1YTdV14jxjQLsNId7CDBsrxWBTQ-hhb4pVNvPsL7_EA=s1024-rj"
       }
     ],
 
