@@ -606,19 +606,19 @@ export default function Menu() {
         name: "Chicken",
         description: "Served with lettuce, tomatoes & cheese",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://cheeseknees.com/wp-content/uploads/2022/06/Smothered-Chicken-Quesadillas-sq-500x500.jpg"
       },{
         id: 90,
         name: "Steak",
         description: "Served with lettuce, tomatoes, & cheese",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GL6CMdToAGDlb7bqxQhHUIKB7Vncxys_Iw&s"
       },{
         id: 91,
         name: "Mix Cheese",
         description: "Served with leetuce, tomatoes, & cheese",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://www.sweetashoney.co/wp-content/uploads/Cheese-Quesadilla-6.jpg"
       },
 
     ],
