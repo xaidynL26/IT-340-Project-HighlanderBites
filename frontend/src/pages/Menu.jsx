@@ -701,21 +701,21 @@ export default function Menu() {
         name: "Chicken Caesar",
         description: "",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSRxye2TDzRDi_QOgeILnJMO6U3cEWJw6Fw&s"
       },
       {
         id: 104,
         name: "Fish Salad",
         description: "",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://static01.nyt.com/images/2025/08/26/multimedia/31EATrex-crispy-fish-salad-blvf/31EATrex-crispy-fish-salad-blvf-mediumSquareAt3X.jpg"
       },
       {
         id: 105,
         name: "Italian Salad",
         description: "Grilled Chicken, crisp bread, fresh vegetables, Fata cheese, Olive oil & italian dressing",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://cdn-aboak.nitrocdn.com/QJsLnWfsWAiuukSIMowyVEHtotvSQZoR/assets/images/optimized/rev-ca18e1d/www.slenderkitchen.com/sites/default/files/styles/featured_1500/public/recipe_images/grilled-chicken-Greek-salad.jpg"
       }
     ], 
     Drinks: [
