@@ -493,31 +493,31 @@ export default function Menu() {
         name: "Chicken Caesar",
         description: "Served with Lett & Tom",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3egaLsvGH_cnjiu3kkPUPbMC5tR3oZ5khBA&s"
       },{
         id: 73,
         name: "Buffalo Chicken",
         description: "With Ranch or Blue Cheese Sauce",
         price: 9.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPnPU5uagEWB-my_Uqkt1F225jVgS-9GrIw&s"
       },{
         id: 74,
         name: "Chicken Honey Wrap",
         description: "Served with Lett/Tom",
         price: 9.00,
-        image: "/menu/white.jpg"
+        image: "https://borrowedbites.com/wp-content/uploads/2024/05/Tortilla-Wrap-With-Sweet-Spicy-Chicken.jpg"
       },{
         id: 75,
         name: "Grilled Chicken Wrap",
         description: "Served with Lett/Tom with Mayo Sauce",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXTIilIBIt2OXjZ09VOvG94HflCXLIFvFOfg&s"
       },{
         id: 76,
         name: "Chicken Parmesan",
         description: "Served with Lett/Tom",
         price: 12.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjZKOKUoOW1YHDymoqN4ZMetcfsCalFHoRw&s"
       },
 
   ],
