@@ -277,50 +277,50 @@ export default function Menu() {
         name: "Lamb Gyro",
         description: "Served with lettuce & tomatoes",
         price: 6.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlU8HhoINWDoffiD4ICWOU6uWW5g519TzDflPkci4oCmfMTtCOWPqajRPBAjnqhqjn65kOHEAybqHuQbVXQgH4cjK1R8Eiv6sRcE0XS-QJLKutielpwvPb69AvcrL_3UAmUgYIwXk9NJLadBb1B0BtxBX6H9lUhZVAyEuRRk6Hxqy_QqA=s1024-rj"
+        image: "https://images.getrecipekit.com/20231222221833-lamb-gyros-with-tzatziki-sauce.jpg?aspect_ratio=1:1&quality=90&"
       },
 {
         id: 40,
         name: "Chicken Shawarma Gyro",
         description: "Served with lettuce & tomatoes",
         price: 7.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSn_z_-ELiF7j9Jn5BcDOI78pFjU5knydXQE6-qXikGp7iMbYesTxv0M4p7SutwOd7SghWByLyMQWvOcH4DemW8bi4IhxCeebdUuuG4Ks2Q8IJQ8bCERSauEVCj5DHVHrYEXvvyE4PguERJfruwH_yPMM08Wr8Emupm6m7ZMxfOxivdVyg=s1024-rj"
+        image: "https://www.closetcooking.com/wp-content/uploads/2021/09/Roast-Chicken-Gyros-1200-4640.jpg"
       },{
         id: 41,
         name: "Beef Steak Gyro",
         description: "Served with lettuce & tomatoes",
         price: 7.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSmt0LzZkP62QKp3ey18VFH1xrzXkY_6DXwXPzUJLV4P59dXmoJ4n86sZns6ZS4JNqMZZ240Cz2kCwmqeTdyGlmw9IAHLcBTf2TkOJBgjO1HFXMAyCwbUqBpFpr4pwfJegh6InRIF8WjFDPj49uUczcqKU37WWJb6Wzs0QVrEJI4Udvfpg=s1024-rj"
+        image: "https://tastesbetterfromscratch.com/wp-content/uploads/2023/01/Beef-Gyro-1.jpg"
       },{
         id: 42,
         name: "Greek Gyro",
         description: "Served with lettuce & tomatoes (Tomatoes, Onions, and French Fries)",
         price: 7.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSmJhc14M6TyWA2Zoum_TzRXuYTeY960gRDfN-bSnsrfvZxMUolvtXbgMCyjkY6DrVdRyMRFwdkwUq-T-lIYxrc7VeR8mImq4WQFLHrjoJ5mdsGN9hOfcDTKdFIjy7Yi29lr9gyqhbHGMEgsWjCHcPiPqh2NHgCF6XJ2nKc_xzEqZs3K9g=s1024-rj"
+        image: "https://kaynutrition.com/wp-content/uploads/2024/06/greek-chicken-gyros-1.jpg"
       },{
         id: 43,
         name: "Chicken Gyro",
         description: "Served with lettuce & tomatoes",
         price: 6.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSknKebzWpZ_C9--qFX50cZxv0fmBinVdtYsLDEcrLgghJb3dc0usv1xLelOuqcmeJUwQyP1AVS0LxKNiCFbD7sVkotlLThVCjuXIHMmjD9WiSCy9KwciMTzDvruHuzmUMErAwclodCkt5EtdhdMNRy-RQnuaBUrrQWf_cTlXOFxw4GpFQ=s1024-rj"
+        image: "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/07/Chicken-Gyros-0666.jpg"
       },{
         id: 44,
         name: "NY style Chicken Gyro",
         description: "Served with lettuce & tomatoes",
         price: 7.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSn2jqfcYT_l5PW99IsiiGzIJicNKXPut-nFXO0j5-U9koLUV0lypTGP5BmoBkx_3G21jhtJN2CB10ZgTqgpoZ_LBAP0tSCvfNF5okR0KLwKqILidMzvT-7hqyDD429ePzH7lG2SvmVuvEwBppscAHgT4dNmIf9ugAw1S25QHS1LAlNBSw=s1024-rj"
+        image: "https://s3-media0.fl.yelpcdn.com/bphoto/n_hNNy3hzyRFkdSjhKLq2g/348s.jpg"
       },{
         id: 45,
         name: "Falafel Gyro",
         description: "Served with lettuce & tomatoes",
         price: 6.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSlNMLthJD4wp2JDZjL1Q1KpSxQy4knMB5Mzy51Oqd2f2M9LTdSy-dHf6TIqIIBTj1vTAh84nyWmfDmaRjwPdlsKv-l8K5jApiG-eYdOeJuhWQPgXaWWbuihR5l1b0EcTX2PoXdoYXl8t1z6MG8rOiMiLWRR9HLeRsmdx6JX7Tp9r5e7lw=s1024-rj"
+        image: "https://dishingouthealth.com/wp-content/uploads/2022/02/FalafelGyros_Square.jpg"
       },{
         id: 46,
         name: "Fish Gyro",
         description: "Served with lettuce & tomatoes",
         price: 7.00,
-        image: "https://lh3.googleusercontent.com/gg-dl/ABS2GSk6LinEgpRMoZpiCJLRdvcmxwBpGvGQWehT8UGr_27HE_DWr3PYJQyzkCe4eQvVpBYDg2q1LSj3Y0rJo6sy5ui7pa8mDVQNZ9bnjT5SLpyEZP2CIVvprwbjjEZu6pq0830cEikLuZH8316zSssyk1JKjlpAOisv5SUbR-YDMWwz1AfBZw=s1024-rj"
+        image: "https://www.gortons.com/wp-content/uploads/2023/09/Website-Maintenance_MarchSprint_750x750_Crispy-Fish-Gyro.webp"
       },
     ],
     Fat_Sandwiches_Steaks: [
