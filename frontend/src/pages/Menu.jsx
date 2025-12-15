@@ -458,32 +458,32 @@ export default function Menu() {
         name: "Delux Burger",
         description: "Lettuce, Tomatoes & Onions with French Fries; Cheese (Chesseburger or Veggie Burger or Falafel Burger or Chicken Burger)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://d1w7312wesee68.cloudfront.net/moYYxYOP7Xo4GJJoGRzae0tocrYqGa5X2Rsi5sSM1ww/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/7f715768-6835-4217-99e8-a4ccc267ba4f/MenuItem/596213b7-fc2e-4b10-b162-b39693bf1361.jpg"
       },
   {
         id: 68,
         name: "New England",
         description: "Cheeseburger, Bacon & Egg",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSRi-Nsj8S1Ie33i5KAfHp1VKKXQp89JuVbQ&s"
       },{
         id: 69,
         name: "Green Gang",
-        description: "Burger, Taylor Ham, Jack cheese& Guacamole Sauce",
+        description: "Burger, Taylor Ham, Jack cheese & Guacamole Sauce",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://images.getrecipekit.com/20240729195336-alvin-20cailan-20guac-20burger.jpg?aspect_ratio=4:3&quality=90&"
       },{
         id: 70,
         name: "San Fran",
         description: "Burger, Bacon, Egg & Swiss Cheese",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://whatshouldimakefor.com/wp-content/uploads/2019/07/IMG_8418.jpg"
       },{
         id: 71,
         name: "Tunes",
         description: "Burger, Steask, Egg & Yellow American cheese",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://www.sweetteaandthyme.com/wp-content/uploads/2024/03/steak-and-egg-sandwich-hero.jpg"
       },
 
    ],
@@ -674,25 +674,25 @@ export default function Menu() {
         name: "Grill Chicken",
         description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://onestophalal.com/cdn/shop/articles/grilled_chicken_burrito-1700352067531_1200x.jpg?v=1700352222"
       },{
         id: 100,
         name: "Beef Steak",
         description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/17708/beefsteakburritos.jpg"
       },{
         id: 101,
         name: "Lamb",
         description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce)",
         price: 10.00,
-        image: "/menu/white.jpg"
+        image: "https://adventuresincooking.com/wp-content/uploads/2013/05/IMG_0316-4.jpg"
       },{
         id: 102,
         name: "Max",
         description: "Rice, Beans & Cheese (Served with white sauce & guacamole sauce) (Two type of meat)",
         price: 11.00,
-        image: "/menu/white.jpg"
+        image: "https://thecookingfoodie.com/wp-content/uploads/2025/11/ground-beef-burrito.jpg"
       },
    ],
     Salads: [
