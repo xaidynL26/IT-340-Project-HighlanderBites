@@ -1,52 +1,89 @@
-import { createContext, useContext, useEffect, useState } from 'react';
-import { apiLogin, apiLogout } from '../api/auth';
+import { createContext, useContext, useEffect, useState } from "react";
+import { apiLogin, apiVerifyMfa, apiLogout } from "../api/auth";
 
 const AuthCtx = createContext(null);
 export const useAuth = () => useContext(AuthCtx);
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null);     // {email, name, ...}
-  const [token, setToken] = useState(null);   // if you use JWT in localStorage
+  const [user, setUser] = useState(null);
+  const [token, setToken] = useState(null);
+  const [mfaPending, setMfaPending] = useState(false);
+  const [tempToken, setTempToken] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // try to restore session from localStorage (if you use tokens)
-    const t = localStorage.getItem('hb_token');
-    const u = localStorage.getItem('hb_user');
-    if (t && u) { setToken(t); setUser(JSON.parse(u)); }
+    const t = localStorage.getItem("hb_token");
+    const u = localStorage.getItem("hb_user");
+    if (t && u) {
+      setToken(t);
+      setUser(JSON.parse(u));
+    }
     setLoading(false);
   }, []);
 
+  // STEP 1: normal login
   const login = async (email, password) => {
     const data = await apiLogin({ email, password });
-    // choose one model: token-in-localStorage OR HttpOnly cookie
+
+    // MFA REQUIRED
+    if (data.mfaRequired) {
+      setMfaPending(true);
+      setTempToken(data.tempToken);
+      return { mfaRequired: true };
+    }
+
+    // NO MFA
+    finishLogin(data);
+    return data;
+  };
+
+  // STEP 2: verify MFA code
+  const verifyMfa = async (code) => {
+    const data = await apiVerifyMfa({
+      token: tempToken,
+      code,
+    });
+
+    finishLogin(data);
+    setMfaPending(false);
+    setTempToken(null);
+  };
+
+  const finishLogin = (data) => {
     if (data.token) {
-      localStorage.setItem('hb_token', data.token);
+      localStorage.setItem("hb_token", data.token);
       setToken(data.token);
     }
     if (data.user) {
-      localStorage.setItem('hb_user', JSON.stringify(data.user));
+      localStorage.setItem("hb_user", JSON.stringify(data.user));
       setUser(data.user);
-    } else {
-      // fallback minimal user
-      const u = { email };
-      localStorage.setItem('hb_user', JSON.stringify(u));
-      setUser(u);
     }
-    return data;
   };
 
   const logout = async () => {
     try { await apiLogout(); } catch {}
-    localStorage.removeItem('hb_token');
-    localStorage.removeItem('hb_user');
-    setToken(null);
+    localStorage.clear();
     setUser(null);
+    setToken(null);
+    setMfaPending(false);
+    setTempToken(null);
   };
 
   return (
-    <AuthCtx.Provider value={{ user, token, loading, login, logout, isAuthed: !!(user || token) }}>
+    <AuthCtx.Provider
+      value={{
+        user,
+        token,
+        loading,
+        login,
+        verifyMfa,
+        logout,
+        mfaPending,
+        isAuthed: !!token,
+      }}
+    >
       {children}
     </AuthCtx.Provider>
   );
 }
+

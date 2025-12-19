@@ -3,6 +3,7 @@ import Shell from "./layout/Shell";
 import Menu from "./pages/Menu";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import PickupEstimate from "./pages/PickupEstimate";   // ⭐ NEW PAGE
 import Orders from "./pages/Orders";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -11,7 +12,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { CartProvider } from "./context/CartContext";
 import { AuthProvider } from "./context/AuthContext";
 import "./index.css";
-
+import MFASetup from "./pages/MFASetup";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +21,6 @@ const router = createBrowserRouter([
       { index: true, element: <Landing /> },
       { path: "menu", element: <Menu /> },
 
-      
       {
         path: "cart",
         element: (
@@ -30,7 +30,6 @@ const router = createBrowserRouter([
         ),
       },
 
-      
       {
         path: "checkout",
         element: (
@@ -40,7 +39,16 @@ const router = createBrowserRouter([
         ),
       },
 
-   
+      // ⭐ NEW PICKUP ESTIMATE PAGE
+      {
+        path: "pickup-estimate",
+        element: (
+          <ProtectedRoute>
+            <PickupEstimate />
+          </ProtectedRoute>
+        ),
+      },
+
       {
         path: "orders",
         element: (
@@ -55,6 +63,7 @@ const router = createBrowserRouter([
   // Public pages
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
+  { path: "/mfa-setup", element: <MFASetup /> },
 ]);
 
 export default function App() {
