@@ -1,0 +1,19 @@
+.hb-landing { background: #d7263d; min-height: 100vh; color: #fff; }
+.hb-hero { max-width: 980px; margin: 0 auto; padding: 72px 20px 40px; text-align: center; }
+.hb-logo { width: 110px; height: auto; filter: drop-shadow(0 6px 16px rgba(0,0,0,.25)); }
+.hb-title { margin: 10px 0 6px; font-size: 48px; line-height: 1.1; font-weight: 900; text-transform: uppercase; }
+.hb-sub { opacity: .95; font-size: 18px; margin-bottom: 24px; }
+
+.hb-cta-row { display: inline-flex; gap: 12px; }
+.hb-btn { padding: 12px 18px; border-radius: 12px; font-weight: 700; text-decoration: none; display: inline-block; }
+.hb-btn-primary { background: #fff; color: #b21f32; }
+.hb-btn-primary:hover { background: #ffeaea; }
+.hb-btn-ghost { background: rgba(255,255,255,.16); color:#fff; border: 1px solid rgba(255,255,255,.25); }
+.hb-btn-ghost:hover { background: rgba(255,255,255,.22); }
+
+.hb-features { 
+  max-width: 980px; margin: 24px auto 0; padding: 0 20px 40px; 
+  display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 16px;
+}
+.hb-feature { background: #fff6f2; color: #2a2a2a; border-radius: 16px; padding: 18px; }
+.hb-feature h3 { margin: 0 0 6px; color: #b21f32; }

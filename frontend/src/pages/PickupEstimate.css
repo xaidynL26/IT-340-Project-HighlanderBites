@@ -1,0 +1,101 @@
+/* Page background */
+.pickup-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f4f1, #f2e9e4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* Card */
+.pickup-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+  animation: popIn 0.5s ease-out;
+}
+
+/* Animated food icon */
+.pickup-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  animation: bounce 1.6s infinite;
+}
+
+.pickup-card h1 {
+  color: #3a2f2f;
+  margin-bottom: 1rem;
+}
+
+/* Time display */
+.pickup-time {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pickup-time span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #b23a48;
+  margin-top: 0.25rem;
+}
+
+/* Subtext */
+.pickup-subtext {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.pickup-btn {
+  display: block;
+  background: linear-gradient(135deg, #b23a48, #8c2f39);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pickup-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(178, 58, 72, 0.35);
+}
+
+/* Secondary link */
+.pickup-link {
+  text-decoration: none;
+  color: #8c2f39;
+  font-weight: 500;
+}
+
+/* Animations */
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
