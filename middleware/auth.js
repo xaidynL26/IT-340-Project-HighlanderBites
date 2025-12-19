@@ -1,4 +1,5 @@
-const jwt = require("jsonwebtoken");
+// middleware/auth.js
+import jwt from "jsonwebtoken";
 
 function auth(req, res, next) {
   const authHeader = req.headers.authorization;
@@ -11,7 +12,7 @@ function auth(req, res, next) {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    // decoded will have whatever we put in the token: { userId, email }
+    // decoded contains: { userId, email }
     req.user = decoded;
     next();
   } catch (err) {
@@ -20,4 +21,5 @@ function auth(req, res, next) {
   }
 }
 
-module.exports = auth;
+export default auth;
+

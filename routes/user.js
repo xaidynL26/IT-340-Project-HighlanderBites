@@ -1,7 +1,6 @@
-
-const express = require("express");
-const User = require("../models/User");
-const auth = require("../middleware/auth");
+import express from "express";
+import User from "../models/User.js";
+import auth from "../middleware/auth.js";
 
 const router = express.Router();
 
@@ -12,10 +11,12 @@ router.use(auth);
 router.get("/profile", async (req, res) => {
   try {
     const user = await User.findById(req.user.userId).select("-passwordHash");
+
     if (!user) {
       return res.status(404).json({ message: "User not found." });
     }
-    return res.json({ user: user });
+
+    return res.json({ user });
   } catch (err) {
     console.error("Error getting profile:", err);
     return res.status(500).json({ message: "Server error." });
@@ -23,7 +24,6 @@ router.get("/profile", async (req, res) => {
 });
 
 // PUT /api/user/profile
-// Allows updating basic fields like fullName
 router.put("/profile", async (req, res) => {
   try {
     const updates = {};
@@ -43,7 +43,7 @@ router.put("/profile", async (req, res) => {
 
     return res.json({
       message: "Profile updated successfully.",
-      user: user
+      user
     });
   } catch (err) {
     console.error("Error updating profile:", err);
@@ -51,4 +51,5 @@ router.put("/profile", async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
+

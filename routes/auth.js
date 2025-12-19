@@ -1,112 +1,76 @@
-const express = require("express");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const User = require("../models/User");
-const auth = require("../middleware/auth");
+import express from "express";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+import speakeasy from "speakeasy";
+import QRCode from "qrcode";
+import User from "../models/User.js";
+import auth from "../middleware/auth.js";
 
 const router = express.Router();
 
-// POST /api/auth/register
+/* REGISTER */
 router.post("/register", async (req, res) => {
-  try {
-    const { email, password, fullName } = req.body;
+  const { email, password, fullName } = req.body;
+  const existing = await User.findOne({ email });
+  if (existing) return res.status(409).json({ message: "User exists" });
 
-    if (!email || !password) {
-      return res.status(400).json({ message: "Email and password are required." });
-    }
+  const passwordHash = await bcrypt.hash(password, 10);
+  const user = await User.create({ email, passwordHash, fullName });
 
-    // Check if user already exists
-    const existing = await User.findOne({ email });
-    if (existing) {
-      return res.status(409).json({ message: "User already exists." });
-    }
-
-    // Hash the password
-    const passwordHash = await bcrypt.hash(password, 10);
-
-    // Create user
-    const user = await User.create({
-      email,
-      passwordHash,
-      fullName,
-    });
-
-    // Create JWT
-    const token = jwt.sign(
-      { userId: user._id, email: user.email },
-      process.env.JWT_SECRET,
-      { expiresIn: process.env.JWT_EXPIRES_IN || "1d" }
-    );
-
-    res.status(201).json({
-      message: "User registered successfully.",
-      user: {
-        id: user._id,
-        email: user.email,
-        fullName: user.fullName,
-      },
-      token,
-    });
-  } catch (err) {
-    console.error("Register error:", err);
-    res.status(500).json({ message: "Server error during registration." });
-  }
+  const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET);
+  res.json({ user, token });
 });
 
-// POST /api/auth/login
+/* LOGIN */
 router.post("/login", async (req, res) => {
-  try {
-    const { email, password } = req.body;
+  const { email, password } = req.body;
+  const user = await User.findOne({ email });
+  if (!user) return res.status(401).json({ message: "Invalid credentials" });
 
-    if (!email || !password) {
-      return res.status(400).json({ message: "Email and password are required." });
-    }
+  const ok = await bcrypt.compare(password, user.passwordHash);
+  if (!ok) return res.status(401).json({ message: "Invalid credentials" });
 
-    const user = await User.findOne({ email });
-    if (!user) {
-      // Don't reveal if email exists
-      return res.status(401).json({ message: "Invalid email or password." });
-    }
-
-    const isMatch = await bcrypt.compare(password, user.passwordHash);
-    if (!isMatch) {
-      return res.status(401).json({ message: "Invalid email or password." });
-    }
-
-    const token = jwt.sign(
-      { userId: user._id, email: user.email },
-      process.env.JWT_SECRET,
-      { expiresIn: process.env.JWT_EXPIRES_IN || "1d" }
-    );
-
-    res.json({
-      message: "Login successful.",
-      user: {
-        id: user._id,
-        email: user.email,
-        fullName: user.fullName,
-      },
-      token,
-    });
-  } catch (err) {
-    console.error("Login error:", err);
-    res.status(500).json({ message: "Server error during login." });
+  // 🔐 MFA CHECK
+  if (user.mfaEnabled) {
+    return res.json({ mfaRequired: true, userId: user._id });
   }
+
+  const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET);
+  res.json({ token, user });
 });
 
-// GET /api/auth/me (protected route)
-router.get("/me", auth, async (req, res) => {
-  try {
-    const user = await User.findById(req.user.userId).select("-passwordHash");
-    if (!user) {
-      return res.status(404).json({ message: "User not found." });
-    }
+/* MFA SETUP */
+router.post("/mfa/setup", auth, async (req, res) => {
+  const secret = speakeasy.generateSecret({
+    name: "Highlander Bites",
+  });
 
-    res.json({ user });
-  } catch (err) {
-    console.error("Me error:", err);
-    res.status(500).json({ message: "Server error." });
-  }
+  const user = await User.findById(req.user.userId);
+  user.mfaSecret = secret.base32;
+  await user.save();
+
+  const qrCode = await QRCode.toDataURL(secret.otpauth_url);
+  res.json({ qrCode });
 });
 
-module.exports = router;
+/* MFA VERIFY */
+router.post("/mfa/verify", auth, async (req, res) => {
+  const { code } = req.body;
+  const user = await User.findById(req.user.userId);
+
+  const ok = speakeasy.totp.verify({
+    secret: user.mfaSecret,
+    encoding: "base32",
+    token: code,
+    window: 1,
+  });
+
+  if (!ok) return res.status(400).json({ message: "Invalid code" });
+
+  user.mfaEnabled = true;
+  await user.save();
+  res.json({ message: "MFA enabled" });
+});
+
+export default router;
+

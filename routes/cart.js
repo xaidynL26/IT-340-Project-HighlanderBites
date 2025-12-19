@@ -1,5 +1,5 @@
-const express = require("express");
-const auth = require("../middleware/auth");
+import express from "express";
+import auth from "../middleware/auth.js";
 
 const router = express.Router();
 
@@ -7,10 +7,8 @@ const router = express.Router();
 router.use(auth);
 
 // GET /api/cart
-// Placeholder: later we will load the user's cart from the database
 router.get("/", async (req, res) => {
   try {
-    // For now, just send a placeholder response
     return res.json({
       message: "Cart fetched successfully (placeholder).",
       cart: {
@@ -25,11 +23,8 @@ router.get("/", async (req, res) => {
 });
 
 // POST /api/cart/add
-// Placeholder: later we will add an item to the user's cart
 router.post("/add", async (req, res) => {
   try {
-    // Example: itemId and quantity would come from req.body
-    // For now, just echo it back
     return res.status(201).json({
       message: "Item added to cart (placeholder).",
       item: req.body
@@ -40,4 +35,5 @@ router.post("/add", async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
+

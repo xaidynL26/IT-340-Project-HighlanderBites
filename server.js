@@ -1,35 +1,39 @@
-require("dotenv").config();
-const express = require("express");
-const cors = require("cors");
-const fs = require("fs");
-const path = require("path");
+import express from "express";
+import cors from "cors";
+import fs from "fs";
+import path from "path";
+import dotenv from "dotenv";
+import { fileURLToPath } from "url";
 
-const cartRoutes = require("./routes/cart");
-const userRoutes = require("./routes/user");
-const authRoutes = require("./routes/auth");
-const connectDB = require("./config/db");
+import connectDB from "./config/db.js";
+import authRoutes from "./routes/auth.js";
+import userRoutes from "./routes/user.js";
+import cartRoutes from "./routes/cart.js";
+import orderRoutes from "./routes/orderRoutes.js";
+
+dotenv.config();
 
 const app = express();
 
-// ----------------------------
-// SIMPLE LOGGING SYSTEM (Phase 3)
-// ----------------------------
+// Needed because __dirname doesn't exist in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Create /var/log/highlander if it doesn’t exist
+// ----------------------------
+// LOGGING
+// ----------------------------
 const logDir = "/var/log/highlander";
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });
 }
 
-// Create write stream for backend.log
 const logFile = path.join(logDir, "backend.log");
 const logStream = fs.createWriteStream(logFile, { flags: "a" });
 
-// Logging middleware
 app.use((req, res, next) => {
   const logEntry = `[${new Date().toISOString()}] ${req.method} ${req.originalUrl}\n`;
   logStream.write(logEntry);
-  console.log(logEntry.trim()); // still logs to console
+  console.log(logEntry.trim());
   next();
 });
 
@@ -39,13 +43,14 @@ app.use((req, res, next) => {
 app.use(cors());
 app.use(express.json());
 
-// Connect to MongoDB
+// MongoDB
 connectDB();
 
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/cart", cartRoutes);
+app.use("/api/orders", orderRoutes);
 
 // Test route
 app.get("/", (req, res) => {
